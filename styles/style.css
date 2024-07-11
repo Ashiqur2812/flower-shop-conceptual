@@ -66,33 +66,135 @@ body {
     width: 90%;
     height: 720px;
     margin: 0 auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin-top: 140px;
 }
 
 .featured-title-container {
-    border: 2px solid green;
+    /* border: 2px solid green; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 50%;
     margin: 0 auto;
+    margin-bottom: 90px;
+
 }
 
 .featured-images {
     display: flex;
     gap: 20px;
-    margin-top: 50px;
+    /* margin-top: 50px; */
+    margin: 0 auto;
 
 }
+
+.image-name {
+    width: 181px;
+    height: 35px;
+    /* border: 2px solid red; */
+    margin-left: 120px;
+    margin-top: 20px;
+    text-decoration-line: underline;
+    color: rgb(39, 39, 39);
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.good-flower {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.support-container {
+    width: 90%;
+    height: 320px;
+    /* border: 2px solid red; */
+    margin-top: 105px;
+    margin: 0 auto;
+    background-color: #F4F4F4;
+
+}
+
+.delivery-content {
+    width: 1090px;
+    height: 147px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    margin-top: 200px; 
+    display: flex;
+    justify-content: space-around;
+}
+
+.delivery-image {
+    margin-top: 100px;
+}
+
+#group57 {
+    margin-left: 80px;
+}
+
+#group58 {
+    margin-left: 75px;
+}
+
+#group59 {
+    margin-left: 20px;
+}
+
+.deal-container {
+    width: 1519px;
+    height: 620px;
+    /* border: 2px solid red; */
+    margin-top: 100px;
+    display: flex;
+    background-color: #FEF6F8;
+}
+
+.deal-content {
+    width: 30%;
+    height: 228px;
+    /* border: 2px solid red; */
+    margin-top: 180px;
+    margin-left: 200px;
+}
+
+.deal-content p,
+.sign-up {
+    margin-top: 30px;
+}
+
+span {
+    color: rgb(229, 84, 115);
+}
+
+.sign-up {
+    width: 135px;
+    height: 54px;
+    border-radius: 4px;
+    background: rgb(229, 84, 115);
+    color: white;
+    border: none;
+}
+
+.flower-content {
+    width: 318px;
+    height: 420px;
+    /* border: 2px solid red; */
+    margin-top: 100px;
+    margin-left: 270px;
+}
+
 
 .first-image,
 .second-image,
 .third-image {
     width: 33%;
     height: 580px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -168,7 +270,7 @@ body {
     width: 90%;
     height: 449px;
     margin: 0 auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     background-image: url(../images/latest-deals-bg.png);
     background-position: center;
     background-repeat: no-repeat;

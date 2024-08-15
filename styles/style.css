@@ -29,14 +29,23 @@ body {
 .banner-text-container {
     width: 40%;
     height: 650px;
-    /* border: 2px solid green; */
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-
+    align-items: start;
+    width: 800px;
+    padding: 0 0 0 4.5rem;
 }
 
+.banner-text-container h1{
+    font-size: 2.2rem;
+    font-weight: 900;
+    margin-bottom: 1.5rem;
+}
+
+.banner-text-container p{
+    margin-bottom: 1.5rem;
+}
 
 .banner-text-container button {
     margin-right: 400px;
@@ -45,20 +54,20 @@ body {
     background-color: #E55473;
     color: white;
     border: none;
-    border-radius: 2px;
+    border-radius: 1rem;
 }
 
 .banner-image-container {
     width: 60%;
     height: 650px;
-    /* border: 2px solid blue; */
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0 0 0 5rem;
 }
 
 .banner-image-container img {
-    width: 60%;
+    width: 80%;
     height: 650px;
 }
 
@@ -66,12 +75,10 @@ body {
     width: 90%;
     height: 720px;
     margin: 0 auto;
-    /* border: 2px solid red; */
     margin-top: 140px;
 }
 
 .featured-title-container {
-    /* border: 2px solid green; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -79,15 +86,22 @@ body {
     width: 50%;
     margin: 0 auto;
     margin-bottom: 90px;
+}
 
+.featured-title-container h1{
+    font-size: 2rem;
+    font-family: 900;
+    margin-bottom: 5px;
+}
+
+.featured-title-container p{
+    text-align: center;
 }
 
 .featured-images {
     display: flex;
     gap: 20px;
-    /* margin-top: 50px; */
     margin: 0 auto;
-
 }
 
 .image-name {
@@ -157,9 +171,13 @@ body {
 .deal-content {
     width: 30%;
     height: 228px;
-    /* border: 2px solid red; */
     margin-top: 180px;
     margin-left: 200px;
+}
+
+.deal-content h2{
+    font-size: 1.9rem;
+    font-weight: 900;
 }
 
 .deal-content p,
@@ -194,7 +212,6 @@ span {
 .third-image {
     width: 33%;
     height: 580px;
-    /* border: 2px solid red; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -224,27 +241,34 @@ span {
 .image {
     display: block;
 }
+/* 
+.image-name{
+    text-decoration: none;
+} */
 
 .delivery-image-container {
     width: 1500px;
     height: 320px;
-    /* border: 2px solid red;  */
 }
 
 .instagram-section-container {
     width: 90%;
     height: 620px;
     margin: 0 auto;
-    /* border: 2px solid red;  */
     margin-top: 140px;
 }
 
 .instagram-text-container {
     height: 132px;
-    /* border: 2px solid blue;  */
     width: 50%;
     margin: 0 auto;
     text-align: center;
+}
+
+.instagram-text-container h1{
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 5px;
 }
 
 .first-insta-image {
@@ -303,6 +327,11 @@ span {
     margin: 0 auto;
     background-color: rgb(229, 84, 115);
     margin-left: 10px;
-    border-radius: 2px;
+    border-radius: 5px;
     border: none;
+}
+
+#subscribe{
+    color: white;
+    height: 45px;
 }
